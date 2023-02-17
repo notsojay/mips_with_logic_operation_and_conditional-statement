@@ -9,7 +9,10 @@ Example: if the given numbers are 30, -999 and 999. -999 would be the smallest, 
 Your inputs are in the function argument registers, $a0, $a1, and $a2. Place the result in the function return register, $v0, at the end of your function.
 
 3.Complete determinant function. You are given a 2x2 matrix, and each element {a, b, c, d} is a 16-bit signed integer. The elements, a and b, are placed individually in higher and lower 16 bits of the function argument register, $a0. And the elements, c and d, are in $a1. (See the following figure.)
-lab1_2.png   
+![image](https://user-images.githubusercontent.com/71242774/219775806-b5ca067e-124c-4667-a9b6-352fe6af0856.png)
+![image](https://user-images.githubusercontent.com/71242774/219775886-800b6bb3-8473-45b4-8cb7-58531b5de0e7.png)
+![image](https://user-images.githubusercontent.com/71242774/219775930-b6668bcc-9687-4d89-a13f-626df37eb790.png)
 Calculate the determinant of the given 2x2 matrix. 
-For example,, det A = (1)*(4)-(2)*(3) = -2
+For example, ![image](https://user-images.githubusercontent.com/71242774/219775982-fe635357-4d2f-4023-907b-2575aa49fe13.png)
+, det A = (1)*(4)-(2)*(3) = -2
 Your inputs are in the function argument registers, $a0 and $a1. Place the result in the function return register, $v0, at the end of your function.
